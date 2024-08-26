@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+// us-east-2
 
 module.exports = {
     module: {
