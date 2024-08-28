@@ -21,6 +21,7 @@ const devConfig = {
       remotes: {
         marketing: 'marketing@http://localhost:8081/remoteEntry.js',
         auth: 'auth@http://localhost:8082/remoteEntry.js',
+        dashboard: 'dashboard@http://localhost:8083/remoteEntry.js',
       },
       // shared: ['react', 'react-dom'] //usar isso para evitar carregar múltiplas vezes a mesma lib, usar em todos lugares onde se quer evitar isso
       shared: packageJson.dependencies //usa todas dependencias do package.json
